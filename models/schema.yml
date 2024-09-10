@@ -1,0 +1,12 @@
+
+sources:
+  - name: raw
+    description: raw data from greenweez
+    tables:
+      - name: sales 
+        description: raw sales data 
+      - name: product 
+        description: raw product data 
+      - name: ship 
+        description: raw shipping data 
+
