@@ -27,3 +27,16 @@ sources:
             tests:
               - unique
               - not_null
+
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: details about ad campaign ran at adsworth 
+      - name: bing
+        identifier: raw_gz_bing
+        description: details about ad campaign ran at bing
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: details about ad campaign ran at criteo
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: details about ad campaign ran at facebook 
