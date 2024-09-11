@@ -30,13 +30,29 @@ sources:
 
       - name: adwords
         identifier: raw_gz_adwords
-        description: details about ad campaign ran at adsworth 
+        description: adwords ad campaign details 
+        tests:
+          - unique:
+              column_name: "( || '-' || )"
+          - not_null
       - name: bing
         identifier: raw_gz_bing
-        description: details about ad campaign ran at bing
+        description: bing ad campaign details
+        tests:
+          - unique:
+              column_name: "( || '-' || )"
+          - not_null
       - name: criteo
         identifier: raw_gz_criteo
-        description: details about ad campaign ran at criteo
+        description: criteo ad campaign details
+        tests:
+          - unique:
+              column_name: "( || '-' || )"
+          - not_null
       - name: facebook
         identifier: raw_gz_facebook
-        description: details about ad campaign ran at facebook 
+        description: facebook ad campaign details
+        tests:
+          - unique:
+              column_name: "( || '-' || )"
+          - not_null
